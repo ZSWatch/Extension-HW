@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ZSWatch-Heartrate.kicad_pro",
+    "filename": "ZSWatch-Extension.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -700,6 +700,10 @@
       "Block Diagram"
     ],
     [
+      "c139902f-738e-4685-b894-275a900ec94d",
+      "Power - Topology"
+    ],
+    [
       "c5103ceb-5325-4a84-a025-9638a412984e",
       "Project Architecture"
     ],
@@ -714,14 +718,14 @@
   ],
   "text_variables": {
     "ASSEMBLY_NOTES": "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)",
-    "BOARD_NAME": "Heartrate-HW",
+    "BOARD_NAME": "Extension-HW",
     "COMPANY": "ZSWatch",
     "DESIGNER": "Daniel Kampert",
     "FABRICATION_NOTES": "Empty",
     "GIT_HASH_PCB": "4ed5581",
     "GIT_HASH_SCH": "9639a43",
-    "GIT_URL": "https://github.com/ZSWatch/Heartrate-HW",
-    "PROJECT_NAME": "ZSWatch Heartrate",
+    "GIT_URL": "https://github.com/ZSWatch/Extension-HW",
+    "PROJECT_NAME": "ZSWatch Extension-HW",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
     "RELEASE_BODY_xyz": "..",
     "RELEASE_DATE": "01-Sep-2025",

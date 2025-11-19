@@ -5,7 +5,7 @@
 	(uuid "d5742f03-3b1a-42e5-a384-018bd4b919aa")
 	(paper "A3")
 	(title_block
-		(title "Heartrate-HW")
+		(title "Extension-HW")
 		(date "2025-07-13")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
@@ -1772,7 +1772,7 @@
 					(page "7")
 				)
 			)
-			(project "ZSWatch-Heartrate"
+			(project "ZSWatch-Extension"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
 					(page "5")
 				)
@@ -1822,7 +1822,7 @@
 					(page "2")
 				)
 			)
-			(project "ZSWatch-Heartrate"
+			(project "ZSWatch-Extension"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
 					(page "2")
 				)
@@ -1843,8 +1843,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "c5103ceb-5325-4a84-a025-9638a412984e")
-		(property "Sheetname" "Project Architecture"
+		(uuid "c139902f-738e-4685-b894-275a900ec94d")
+		(property "Sheetname" "Power - Topology"
 			(at 306.07 313.9309 0)
 			(effects
 				(font
@@ -1856,8 +1856,53 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Project Architecture.kicad_sch"
+		(property "Sheetfile" "Power - Topology.kicad_sch"
 			(at 307.34 316.23 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ZSWatch-Extension"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 346.71 314.96)
+		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5103ceb-5325-4a84-a025-9638a412984e")
+		(property "Sheetname" "Project Architecture"
+			(at 346.71 313.9309 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Project Architecture.kicad_sch"
+			(at 347.98 316.23 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1872,7 +1917,7 @@
 					(page "3")
 				)
 			)
-			(project "ZSWatch-Heartrate"
+			(project "ZSWatch-Extension"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
 					(page "3")
 				)

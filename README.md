@@ -1,10 +1,10 @@
-# ZSWatch-DevKit
+# ZSWatch-Extension
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
 
 ## 📑 Table of Contents
 
-- [ZSWatch-DevKit](#zswatch-devkit)
+- [ZSWatch-Extension](#zswatch-extension)
   - [📑 Table of Contents](#-table-of-contents)
   - [📖 About](#-about)
   - [📂 Directory Breakdown](#-directory-breakdown)
@@ -13,7 +13,7 @@
 
 ## 📖 About
 
-The **ZSWatch-DevKit** project provides the hardware design and production files for a heartrate board tailored to the ZSWatch ecosystem.
+The **ZSWatch-Extension** project provides the hardware design and production files for a heartrate board tailored to the ZSWatch ecosystem.
 It is built with **KiCad** and integrates a full **CI/CD pipeline** using **KiBot**, ensuring reproducible outputs for documentation, manufacturing, and releases.
 
 Key features:
@@ -30,7 +30,7 @@ Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more inform
 
 - **`.github`**: GitHub related files
 - **`.gitignore`**: Ignored files list
-- **`devkit`**: KiCad project for the devkit
+- **`extension`**: KiCad project for the extension
 - **`production`**: Manufacturing outputs (Gerbers, documentation, etc.)
 - **`CHANGELOG.md`**: Version history
 - **`LICENSE`**: Project license (GPL-3.0)

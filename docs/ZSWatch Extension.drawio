@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="Power-Hierarchy" id="vj1k-V02Zc6R-WiX8Pcd">
-    <mxGraphModel dx="942" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1020" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,7 +84,7 @@
         <mxCell id="TYsPYAuOMIhBcHjxlcUi-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points" />
-            <mxPoint x="230" y="380" as="sourcePoint" />
+            <mxPoint x="280" y="380" as="sourcePoint" />
             <mxPoint x="464" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -113,12 +113,12 @@
         <mxCell id="TYsPYAuOMIhBcHjxlcUi-27" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=1.008;exitY=0.809;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="189.99649999999997" y="270" as="sourcePoint" />
-            <mxPoint x="230" y="270" as="targetPoint" />
+            <mxPoint x="280" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TYsPYAuOMIhBcHjxlcUi-28" connectable="0" parent="TYsPYAuOMIhBcHjxlcUi-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#9673A6;labelBackgroundColor=none;" value="+1V8" vertex="1">
+        <mxCell id="TYsPYAuOMIhBcHjxlcUi-28" connectable="0" parent="TYsPYAuOMIhBcHjxlcUi-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#9673A6;labelBackgroundColor=none;" value="+1V8_PA" vertex="1">
           <mxGeometry relative="1" x="-0.4526" as="geometry">
-            <mxPoint x="8" y="8" as="offset" />
+            <mxPoint x="5" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TYsPYAuOMIhBcHjxlcUi-29" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="">
@@ -127,9 +127,9 @@
             <mxPoint x="330" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TYsPYAuOMIhBcHjxlcUi-30" connectable="0" parent="TYsPYAuOMIhBcHjxlcUi-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#82B366;labelBackgroundColor=none;" value="+1V8_LDO" vertex="1">
+        <mxCell id="TYsPYAuOMIhBcHjxlcUi-30" connectable="0" parent="TYsPYAuOMIhBcHjxlcUi-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#82B366;labelBackgroundColor=none;" value="+1V8_HR" vertex="1">
           <mxGeometry relative="1" x="-0.21" as="geometry">
-            <mxPoint x="-20" y="8" as="offset" />
+            <mxPoint x="-25" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TYsPYAuOMIhBcHjxlcUi-31" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="">
@@ -146,8 +146,11 @@
         </mxCell>
         <mxCell id="TYsPYAuOMIhBcHjxlcUi-34" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="230" y="380" as="sourcePoint" />
-            <mxPoint x="230" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="330" />
+            </Array>
+            <mxPoint x="280" y="380" as="sourcePoint" />
+            <mxPoint x="280" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

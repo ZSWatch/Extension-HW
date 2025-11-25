@@ -1774,7 +1774,7 @@
 			)
 			(project "ZSWatch-Extension"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-					(page "5")
+					(page "8")
 				)
 			)
 		)
@@ -1919,7 +1919,7 @@
 			)
 			(project "ZSWatch-Extension"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-					(page "3")
+					(page "4")
 				)
 			)
 		)

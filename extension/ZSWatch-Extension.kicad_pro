@@ -596,13 +596,13 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -620,7 +620,7 @@
           "group_by": false,
           "label": "Beschreibung",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -707,7 +707,15 @@
     ],
     [
       "82af773f-8c39-43b9-baa2-3658da6c8bb2",
-      "Main"
+      "Heartrate"
+    ],
+    [
+      "1c7116a9-d8d3-4794-8366-f99861685a5c",
+      "Audio"
+    ],
+    [
+      "84d69b6e-c5e1-430b-bee6-3e9322ea9cdc",
+      "Connectors"
     ],
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
@@ -753,7 +761,7 @@
     "SHEET_NAME_27": "......................................",
     "SHEET_NAME_28": "......................................",
     "SHEET_NAME_29": "......................................",
-    "SHEET_NAME_3": "Project Architecture",
+    "SHEET_NAME_3": "Power - Topology",
     "SHEET_NAME_30": "......................................",
     "SHEET_NAME_31": "......................................",
     "SHEET_NAME_32": "......................................",
@@ -764,12 +772,12 @@
     "SHEET_NAME_37": "......................................",
     "SHEET_NAME_38": "......................................",
     "SHEET_NAME_39": "......................................",
-    "SHEET_NAME_4": "Main",
+    "SHEET_NAME_4": "Project Architecture",
     "SHEET_NAME_40": "......................................",
-    "SHEET_NAME_5": "Revision History",
-    "SHEET_NAME_6": "......................................",
-    "SHEET_NAME_7": "......................................",
-    "SHEET_NAME_8": "......................................",
+    "SHEET_NAME_5": "Heartrate",
+    "SHEET_NAME_6": "Audio",
+    "SHEET_NAME_7": "Connectors",
+    "SHEET_NAME_8": "Revision History",
     "SHEET_NAME_9": "......................................",
     "VARIANT": "PRELIMINARY"
   }

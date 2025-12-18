@@ -717,10 +717,6 @@
 		)
 	)
 	(no_connect
-		(at 102.87 93.98)
-		(uuid "1122b2ff-b943-48f7-b51d-74b1e92d7f7c")
-	)
-	(no_connect
 		(at 208.28 104.14)
 		(uuid "258fdd1d-5b26-4cb2-8f86-00871ecb3e4d")
 	)
@@ -747,10 +743,6 @@
 	(no_connect
 		(at 102.87 101.6)
 		(uuid "93f5c9ff-67b9-4358-813e-6a91bea34d08")
-	)
-	(no_connect
-		(at 115.57 101.6)
-		(uuid "ac2817fd-d55c-479d-99a1-bef720b28ac1")
 	)
 	(no_connect
 		(at 208.28 88.9)
@@ -790,33 +782,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 88.9) (xy 99.06 78.74)
+			(xy 88.9 96.52) (xy 102.87 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34ee9ae7-ec84-41a8-88ec-27b56ba0d439")
-	)
-	(wire
-		(pts
-			(xy 100.33 96.52) (xy 102.87 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56810e4a-00db-4a99-adb4-e39a1f4aa3f0")
-	)
-	(wire
-		(pts
-			(xy 102.87 88.9) (xy 99.06 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65884500-b7d2-4198-8b54-940f0ff1374a")
+		(uuid "3f590a94-2d01-4c5c-8000-0e5add5453fc")
 	)
 	(wire
 		(pts
@@ -830,23 +802,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 85.09) (xy 95.25 91.44)
+			(xy 101.6 85.09) (xy 101.6 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6986571f-ba28-4e81-8796-d695c8b29351")
-	)
-	(wire
-		(pts
-			(xy 194.31 88.9) (xy 195.58 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b5b8f01-1c0b-48cd-a190-26668f236524")
 	)
 	(wire
 		(pts
@@ -860,7 +822,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 91.44) (xy 95.25 91.44)
+			(xy 101.6 91.44) (xy 102.87 91.44)
 		)
 		(stroke
 			(width 0)
@@ -880,16 +842,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 78.74) (xy 102.87 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8291215c-3a71-4193-81b2-15f349a2292b")
-	)
-	(wire
-		(pts
 			(xy 208.28 96.52) (xy 209.55 96.52)
 		)
 		(stroke
@@ -897,6 +849,16 @@
 			(type default)
 		)
 		(uuid "82bb91f3-fb36-4d4e-b12c-9f7f9e37e07e")
+	)
+	(wire
+		(pts
+			(xy 100.33 88.9) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88713bfb-070d-4d98-86d7-668096940e4a")
 	)
 	(wire
 		(pts
@@ -910,6 +872,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 93.98) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97421907-c454-4f30-96f5-633b49a51805")
+	)
+	(wire
+		(pts
 			(xy 208.28 91.44) (xy 209.55 91.44)
 		)
 		(stroke
@@ -917,6 +889,16 @@
 			(type default)
 		)
 		(uuid "9b535ed7-357a-41d5-9ee6-ecc2c2e1c6b8")
+	)
+	(wire
+		(pts
+			(xy 88.9 85.09) (xy 88.9 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb22f97-d51d-4c0b-ad8a-b6036bfe6bde")
 	)
 	(wire
 		(pts
@@ -940,23 +922,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 78.74) (xy 102.87 78.74)
+			(xy 116.84 101.6) (xy 116.84 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d313db51-7992-4cac-9feb-0f9285b07c4f")
-	)
-	(wire
-		(pts
-			(xy 194.31 93.98) (xy 195.58 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4be8f7a-50a6-43d7-ae18-03427e535a0b")
+		(uuid "dc7dd291-9f5c-4617-85a4-70592322f222")
 	)
 	(wire
 		(pts
@@ -967,6 +939,16 @@
 			(type default)
 		)
 		(uuid "e675e7a9-6dbb-4353-8019-a559f5a35c8b")
+	)
+	(wire
+		(pts
+			(xy 115.57 101.6) (xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c61469-8ab1-4cf7-9a1a-f795a58d6f60")
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
@@ -1025,18 +1007,18 @@
 	)
 	(hierarchical_label "+1V8_HR"
 		(shape output)
-		(at 100.33 96.52 180)
+		(at 101.6 85.09 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5f19d3cd-cc34-428d-8d6d-ccb12c5355d6")
 	)
 	(hierarchical_label "SP-N"
 		(shape input)
-		(at 194.31 88.9 180)
+		(at 100.33 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1047,7 +1029,7 @@
 	)
 	(hierarchical_label "SP-P"
 		(shape input)
-		(at 194.31 93.98 180)
+		(at 100.33 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1167,17 +1149,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VS")
-		(at 95.25 85.09 0)
+		(lib_id "power:GND")
+		(at 116.84 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "46f79ad1-eba9-4ec7-9fb5-2a04d7d3242d")
-		(property "Reference" "#PWR0701"
-			(at 95.25 88.9 0)
+		(uuid "21115578-ce1c-4873-8ba1-cb24a53401f3")
+		(property "Reference" "#PWR0703"
+			(at 116.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,8 +1167,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSYS"
-			(at 95.25 80.01 0)
+		(property "Value" "GND"
+			(at 116.84 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 85.09 0)
+			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,7 +1185,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 85.09 0)
+			(at 116.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e44cace0-eb04-4b49-892e-4f1eeeae656d")
+		)
+		(instances
+			(project "ZSWatch-Extension"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/84d69b6e-c5e1-430b-bee6-3e9322ea9cdc"
+					(reference "#PWR0703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VS")
+		(at 88.9 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46f79ad1-eba9-4ec7-9fb5-2a04d7d3242d")
+		(property "Reference" "#PWR0701"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VS\""
-			(at 95.25 85.09 0)
+			(at 88.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1269,7 @@
 			)
 		)
 		(property "manf" ""
-			(at 95.25 85.09 0)
+			(at 88.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +1278,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 95.25 85.09 0)
+			(at 88.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1287,7 @@
 			)
 		)
 		(property "mouser#" ""
-			(at 95.25 85.09 0)
+			(at 88.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1296,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 95.25 85.09 0)
+			(at 88.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,72 +1451,6 @@
 			(project "ZSWatch-Extension"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/84d69b6e-c5e1-430b-bee6-3e9322ea9cdc"
 					(reference "X701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 102.87 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1c7c6bd-358a-4a66-a7f6-8d18e8230b51")
-		(property "Reference" "#PWR0702"
-			(at 102.87 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bee6053-ecfd-480b-948c-0893622092c4")
-		)
-		(instances
-			(project "ZSWatch-Extension"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/84d69b6e-c5e1-430b-bee6-3e9322ea9cdc"
-					(reference "#PWR0702")
 					(unit 1)
 				)
 			)

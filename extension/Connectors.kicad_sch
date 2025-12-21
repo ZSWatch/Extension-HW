@@ -5,7 +5,7 @@
 	(uuid "d5742f03-3b1a-42e5-a384-018bd4b919aa")
 	(paper "A4")
 	(title_block
-		(title "Heartrate-DevKit")
+		(title "Connectors")
 		(date "2025-07-13")
 		(rev "${REVISION}")
 		(company "${COMPANY}")

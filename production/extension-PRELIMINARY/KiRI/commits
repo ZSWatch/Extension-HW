@@ -1,0 +1,4 @@
+_local_|2026-02-20|root|Local changes not committed|False|True
+6736584|2026-02-06|Daniel Kampert|Prepare release 1.0.0|True|True
+461d221|2025-12-21|Daniel Kampert|Change connector layout to simplify routing on the watch PCB|True|False
+e179c96|2025-12-18|Daniel Kampert|Smaller changes for better integration into ZSWatch mainboard|True|True

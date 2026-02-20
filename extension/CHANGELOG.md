@@ -2,10 +2,11 @@
 
 ## [Unreleased]
 
-### Added
+**Added:**
 
 - Test points for 1V8_PA, 1V8_HR, and VSYS (#11).
 - Silkscreen arrow to indicate mounting orientation (#11).
+- Add `fill_zones: true` to preflight (#5)
 
 ## [1.0.0] - 2026-02-20
 

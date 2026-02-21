@@ -1,17 +1,19 @@
 # ZSWatch-Extension
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
+[![PCB](https://github.com/ZSWatch/Extension-HW/actions/workflows/extension.yaml/badge.svg)](https://github.com/ZSWatch/Extension-HW/actions/workflows/extension.yaml)
+[![Documentation](https://img.shields.io/badge/Documentation-HTML-007ec6?longCache=true&style=flat&logo=asciidoctor&colorA=555555)](https://zswatch-extension-hw.github.io/)
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [ZSWatch-Extension](#zswatch-extension)
-  - [📑 Table of Contents](#-table-of-contents)
-  - [📖 About](#-about)
-  - [📂 Directory Breakdown](#-directory-breakdown)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Directory Breakdown](#directory-breakdown)
   - [Purchasing](#purchasing)
-  - [👨‍💻 Maintainer](#-maintainer)
+  - [Maintainer](#maintainer)
 
-## 📖 About
+## About
 
 The **ZSWatch-Extension** project provides the hardware design and production files for a heartrate board tailored to the ZSWatch ecosystem.
 It is built with **KiCad** and integrates a full **CI/CD pipeline** using **KiBot**, ensuring reproducible outputs for documentation, manufacturing, and releases.
@@ -26,7 +28,7 @@ Key features:
 
 Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more information about the project.
 
-## 📂 Directory Breakdown
+## Directory Breakdown
 
 - **`.github`**: GitHub related files
 - **`.gitignore`**: Ignored files list
@@ -40,6 +42,6 @@ Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more inform
 
 TBD
 
-## 👨‍💻 Maintainer
+## Maintainer
 
 - [Daniel Kampert](mailto:danielkameprt@kampis-elektroecke.de)

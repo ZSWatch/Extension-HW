@@ -724,19 +724,21 @@
   ],
   "text_variables": {
     "ASSEMBLY_NOTES": "",
-    "BOARD_NAME": "Heartrate-HW",
+    "BOARD_NAME": "Extension-HW",
     "COMPANY": "ZSWatch",
     "DESIGNER": "Daniel Kampert",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "6736584",
+    "GIT_HASH_PCB": "872ab91",
     "GIT_HASH_SCH": "6736584",
-    "GIT_URL": "https://github.com/ZSWatch/Heartrate-HW",
-    "PROJECT_NAME": "ZSWatch Heartrate",
+    "GIT_URL": "https://github.com/ZSWatch/Extension-HW",
+    "PROJECT_NAME": "ZSWatch Extension",
+    "RELEASE_BODY_1.1.0": "Version 1.1.0 not found.",
     "RELEASE_BODY_1.3.0": "Version 1.3.0 not found.",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
     "RELEASE_BODY_xyz": "..",
-    "RELEASE_DATE": "20-Feb-2026",
-    "RELEASE_DATE_NUM": "2026-02-20",
+    "RELEASE_DATE": "21-Feb-2026",
+    "RELEASE_DATE_NUM": "2026-02-21",
+    "RELEASE_TITLE_1.1.0": "Version 1.1.0 not found.",
     "RELEASE_TITLE_1.3.0": "Version 1.3.0 not found.",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
     "RELEASE_TITLE_xyz": "..",
@@ -781,6 +783,6 @@
     "SHEET_NAME_7": "Connectors",
     "SHEET_NAME_8": "Revision History",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "RELEASED"
+    "VARIANT": "PRELIMINARY"
   }
 }

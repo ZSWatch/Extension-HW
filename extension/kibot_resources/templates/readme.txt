@@ -1,12 +1,12 @@
 <p align="center" width="100%">
-  <img alt="Logo" width="33%" src="Logos/ZSWatch_logo_with_text.png">
+  <img alt="Logo" width="33%" src="Images/Logos/Logo.png">
 </p>
 
 <h1 align="center">${BOARD_NAME}</h1>
 
 <p align="center" width="100%">
-  <a href="${GIT_URL}/actions/workflows/devkit.yaml">
-    <img alt="CI Badge" src="${GIT_URL}/actions/workflows/devkit.yaml/badge.svg">
+  <a href="${GIT_URL}/actions/workflows/extension.yaml">
+    <img alt="CI Badge" src="${GIT_URL}/actions/workflows/extension.yaml/badge.svg">
   </a>
 </p>
 

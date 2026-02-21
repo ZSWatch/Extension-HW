@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+**Added:**
+
+- Add `fill_zones: true` to preflight (#5)
+
 ## [1.0.0] - 2026-02-20
 
 **Added:**

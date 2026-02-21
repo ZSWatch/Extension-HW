@@ -2,22 +2,24 @@
 <export version="E">
   <design>
     <source>/__w/Extension-HW/Extension-HW/extension/ZSWatch-Extension.kicad_sch</source>
-    <date>2026-02-20T15:06:16+0000</date>
+    <date>2026-02-21T13:56:47+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
-    <textvar name="BOARD_NAME">Heartrate-HW</textvar>
+    <textvar name="BOARD_NAME">Extension-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">6736584</textvar>
+    <textvar name="GIT_HASH_PCB">872ab91</textvar>
     <textvar name="GIT_HASH_SCH">6736584</textvar>
-    <textvar name="GIT_URL">https://github.com/ZSWatch/Heartrate-HW</textvar>
-    <textvar name="PROJECT_NAME">ZSWatch Heartrate</textvar>
+    <textvar name="GIT_URL">https://github.com/ZSWatch/Extension-HW</textvar>
+    <textvar name="PROJECT_NAME">ZSWatch Extension</textvar>
+    <textvar name="RELEASE_BODY_1.1.0">Version 1.1.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.3.0">Version 1.3.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_BODY_xyz">..</textvar>
-    <textvar name="RELEASE_DATE">20-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-20</textvar>
+    <textvar name="RELEASE_DATE">21-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-21</textvar>
+    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.3.0">Version 1.3.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_TITLE_xyz">..</textvar>
@@ -62,7 +64,7 @@
     <textvar name="SHEET_NAME_7">Connectors</textvar>
     <textvar name="SHEET_NAME_8">Revision History</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -137,7 +139,7 @@
     </sheet>
     <sheet number="5" name="/Project Architecture/Heartrate/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/">
       <title_block>
-        <title/>
+        <title>Heartrate</title>
         <company>ZSWatch</company>
         <rev/>
         <date>2025-07-13</date>
@@ -155,7 +157,7 @@
     </sheet>
     <sheet number="6" name="/Project Architecture/Audio/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/1c7116a9-d8d3-4794-8366-f99861685a5c/">
       <title_block>
-        <title/>
+        <title>Audio</title>
         <company>ZSWatch</company>
         <rev/>
         <date>2025-07-13</date>
@@ -173,7 +175,7 @@
     </sheet>
     <sheet number="7" name="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/84d69b6e-c5e1-430b-bee6-3e9322ea9cdc/">
       <title_block>
-        <title/>
+        <title>Connectors</title>
         <company>ZSWatch</company>
         <rev/>
         <date>2025-07-13</date>

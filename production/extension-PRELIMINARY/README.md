@@ -1,12 +1,12 @@
 <p align="center" width="100%">
-  <img alt="Logo" width="33%" src="Logos/ZSWatch_logo_with_text.png">
+  <img alt="Logo" width="33%" src="Images/Logos/Logo.png">
 </p>
 
-<h1 align="center">Heartrate-HW</h1>
+<h1 align="center">Extension-HW</h1>
 
 <p align="center" width="100%">
-  <a href="https://github.com/ZSWatch/Heartrate-HW/actions/workflows/devkit.yaml">
-    <img alt="CI Badge" src="https://github.com/ZSWatch/Heartrate-HW/actions/workflows/devkit.yaml/badge.svg">
+  <a href="https://github.com/ZSWatch/Extension-HW/actions/workflows/extension.yaml">
+    <img alt="CI Badge" src="https://github.com/ZSWatch/Extension-HW/actions/workflows/extension.yaml/badge.svg">
   </a>
 </p>
 

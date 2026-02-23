@@ -5,6 +5,7 @@
 **Added:**
 
 - Add `fill_zones: true` to preflight (#5)
+- Add revision string to copper (#7)
 
 **Changed:**
 

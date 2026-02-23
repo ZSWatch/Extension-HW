@@ -5534,7 +5534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 189.23 26.67 0)
 			(effects
 				(font
@@ -5543,7 +5543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 189.23 26.67 0)
 			(effects
 				(font
@@ -5579,7 +5579,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "KGM03DR50G106MH"
+		(property "manf#" "0402ZD106MAT4A"
 			(at 189.23 26.67 0)
 			(effects
 				(font
@@ -5588,7 +5588,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "581-KGM03DR50G106MH"
+		(property "mouser#" "581-0402ZD106MAT4A"
 			(at 189.23 26.67 0)
 			(effects
 				(font

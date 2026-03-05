@@ -11,6 +11,10 @@
 
 - Change VLED capacitor to 10 V type (#3)
 
+**Fixed:**
+
+- Several production issues (#8, #9, 10)
+
 ## [1.0.0] - 2026-02-20
 
 **Added:**

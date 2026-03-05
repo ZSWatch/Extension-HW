@@ -434,7 +434,8 @@ import:
     definitions:
       NAME: @COPY_LOGO@
       COMMENT: Copy logo
-      DIR: @COPY_LOGO_DIR@
+      OUTDIR: @COPY_LOGO_DIR@
+      SOURCE: @LOGO@
 
   # Schematic in PDF format
   - file: kibot_out_pdf_schematic.yaml
@@ -550,14 +551,14 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: ZSWatch Heartrate
-  BOARD_NAME: Heartrate-HW
+  PROJECT_NAME: ZSWatch Extension
+  BOARD_NAME: Extension-HW
 
   COMPANY: ZSWatch
   DESIGNER: Daniel Kampert
 
-  LOGO: 'logos/ZSWatch_logo_with_text.png'
-  GIT_URL: 'https://github.com/ZSWatch/Heartrate-HW'
+  LOGO: 'Logos/Logo.png'
+  GIT_URL: 'https://github.com/ZSWatch/Extension-HW'
 
   # Preflight ==================================================================
 
@@ -617,7 +618,7 @@ definitions:
   IMAGES_DIR: 'Images'
   3D_DIR: '3D'
   NETLIST_DIR: 'Netlist'
-  COPY_LOGO_DIR: '.'
+  COPY_LOGO_DIR: 'Images'
 
   RESOURCES_DIR: './kibot_resources'
   REPORT_TEMPLATE_DIR: '@RESOURCES_DIR@/templates'

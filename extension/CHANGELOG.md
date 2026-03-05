@@ -2,6 +2,19 @@
 
 ## [Unreleased]
 
+**Added:**
+
+- Add `fill_zones: true` to preflight (#5)
+- Add revision string to copper (#7)
+
+**Changed:**
+
+- Change VLED capacitor to 10 V type (#3)
+
+**Fixed:**
+
+- Several production issues (#8, #9, 10)
+
 ## [1.0.0] - 2026-02-20
 
 **Added:**

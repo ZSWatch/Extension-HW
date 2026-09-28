@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/__w/Extension-HW/Extension-HW/extension/ZSWatch-Extension.kicad_sch</source>
-    <date>2026-02-20T15:06:16+0000</date>
+    <date>2026-09-28T18:56:29+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Heartrate-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">6736584</textvar>
+    <textvar name="GIT_HASH_PCB">872ab91</textvar>
     <textvar name="GIT_HASH_SCH">6736584</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Heartrate-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Heartrate</textvar>
@@ -62,7 +62,7 @@
     <textvar name="SHEET_NAME_7">Connectors</textvar>
     <textvar name="SHEET_NAME_8">Revision History</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>

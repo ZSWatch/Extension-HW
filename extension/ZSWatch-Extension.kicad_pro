@@ -728,7 +728,7 @@
     "COMPANY": "ZSWatch",
     "DESIGNER": "Daniel Kampert",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "6736584",
+    "GIT_HASH_PCB": "872ab91",
     "GIT_HASH_SCH": "6736584",
     "GIT_URL": "https://github.com/ZSWatch/Heartrate-HW",
     "PROJECT_NAME": "ZSWatch Heartrate",
@@ -781,6 +781,6 @@
     "SHEET_NAME_7": "Connectors",
     "SHEET_NAME_8": "Revision History",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "RELEASED"
+    "VARIANT": "CHECKED"
   }
 }

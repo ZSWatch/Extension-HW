@@ -1,18 +1,14 @@
 ** Drc report for ZSWatch-Extension.kicad_pcb **
-** Created on 2026-02-20T14:40:58+0000 **
+** Created on 2026-09-28T18:52:26+0000 **
 
-** Found 40 DRC violations **
-[clearance]: Clearance violation (netclass 'Default' clearance 0.1000 mm; actual 0.0497 mm)
-    ; error
-    @(201.606169 mm, 143.268723 mm): Via [Net-(IC501-CS_{ACC})] on F.Cu - B.Cu
-    @(200.402944 mm, 145.224264 mm): PCB text '+ (Unreleased)' on B.Cu
+** Found 39 DRC violations **
 [shorting_items]: Items shorting two nets (nets <no net> and Net-(IC501-CS_{ACC}))
     ; error
-    @(200.402944 mm, 145.224264 mm): PCB text '+ (Unreleased)' on B.Cu
+    @(200.402944 mm, 145.224264 mm): PCB text '1.0.0+ (Unreleased)' on B.Cu
     @(199.412994 mm, 147.487006 mm): Polygon [Net-(IC501-CS_{ACC})] on B.Cu
 [clearance]: Clearance violation (netclass 'Default' clearance 0.1000 mm; actual 0.0000 mm)
     ; error
-    @(200.402944 mm, 145.224264 mm): PCB text '+ (Unreleased)' on B.Cu
+    @(200.402944 mm, 145.224264 mm): PCB text '1.0.0+ (Unreleased)' on B.Cu
     @(182.7 mm, 132.5 mm): Zone [GND] on B.Cu, priority 8
 [lib_footprint_issues]: The current configuration does not include the footprint library 'Amphenol'.
     ; warning

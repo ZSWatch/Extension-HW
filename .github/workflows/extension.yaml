@@ -167,6 +167,7 @@ jobs:
           last_tag=$(git describe --tags --abbrev=0 || echo "")
           if [[ "${{ github.ref_type }}" == "tag" ]]; then
             version_arg="-E REVISION='${last_tag}'"
+            kibot_variant=RELEASED
             echo "Overriding kibot_variant to 'RELEASED' for tag"
             echo "kibot_variant=RELEASED" >> $GITHUB_ENV
           else
@@ -240,8 +241,8 @@ jobs:
           find . -type f -iname \*.log -delete
           find . -type f -iname \*.ogv -delete
           find . -type f -iname \*.kicad_pro-bak -delete
-          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pro
-          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pcb
+          rm -f ${{ env.kibot_input_dir }}/kibot_*.kicad_pro
+          rm -f ${{ env.kibot_input_dir }}/kibot_*.kicad_pcb
 
       - name: Upload artifacts (results)
         uses: actions/upload-artifact@v4
@@ -297,11 +298,16 @@ jobs:
     needs: generate_outputs
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    if: github.ref_type == 'tag'
+    if: github.ref_type == 'tag' && vars.DEPLOY_PAGES == 'true'
     steps:
       - name: Determine variant
         shell: bash

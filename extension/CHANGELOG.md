@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### Added
+
+- Test points for 1V8_PA, 1V8_HR, and VSYS.
+- Silkscreen arrow to indicate mounting orientation.
+
 ## [1.0.0] - 2026-02-20
 
 **Added:**

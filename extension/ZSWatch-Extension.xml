@@ -2,22 +2,54 @@
 <export version="E">
   <design>
     <source>/__w/Extension-HW/Extension-HW/extension/ZSWatch-Extension.kicad_sch</source>
-    <date>2026-09-28T18:56:29+0000</date>
+    <date>2026-10-19T20:57:55+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
-    <textvar name="BOARD_NAME">Heartrate-HW</textvar>
+    <textvar name="BOARD_NAME">Extension-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">872ab91</textvar>
+    <textvar name="GIT_HASH_PCB">567260f</textvar>
     <textvar name="GIT_HASH_SCH">6736584</textvar>
-    <textvar name="GIT_URL">https://github.com/ZSWatch/Heartrate-HW</textvar>
-    <textvar name="PROJECT_NAME">ZSWatch Heartrate</textvar>
+    <textvar name="GIT_URL">https://github.com/ZSWatch/Extension-HW</textvar>
+    <textvar name="PROJECT_NAME">ZSWatch Extension</textvar>
+    <textvar name="RELEASE_BODY_1.1.0">___________________________________
+
+Added
+
+-   Test points for 1V8_PA, 1V8_HR, and VSYS (#11).
+
+-   Silkscreen arrow to indicate mounting orientation (#11).
+
+-   Add `fill_zones: true` to preflight (#5)
+
+-   Add revision string to copper (#7)
+
+___________________________________
+
+Changed
+
+-   Change VLED capacitor to 10 V type (#3)
+
+___________________________________
+
+Fixed
+
+-   Several production issues (#8, #9, #10)
+
+-   Restore test-point references and preserve their silkscreen labels as separate text (#6).
+
+-   Refill copper zones after combining the capacitor and test-point layout changes (#6).
+
+-   Select the release variant before choosing KiBot checks and tolerate missing temporary files during CI cleanup (#6).
+
+-   Make Pages deployment opt-in through `DEPLOY_PAGES=true` and grant its required permissions (#6).</textvar>
     <textvar name="RELEASE_BODY_1.3.0">Version 1.3.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_BODY_xyz">..</textvar>
-    <textvar name="RELEASE_DATE">20-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-20</textvar>
+    <textvar name="RELEASE_DATE">19-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-19</textvar>
+    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 - 2026-10-19</textvar>
     <textvar name="RELEASE_TITLE_1.3.0">Version 1.3.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_TITLE_xyz">..</textvar>
@@ -62,7 +94,7 @@
     <textvar name="SHEET_NAME_7">Connectors</textvar>
     <textvar name="SHEET_NAME_8">Revision History</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">CHECKED</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -137,7 +169,7 @@
     </sheet>
     <sheet number="5" name="/Project Architecture/Heartrate/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/">
       <title_block>
-        <title/>
+        <title>Heartrate</title>
         <company>ZSWatch</company>
         <rev/>
         <date>2025-07-13</date>
@@ -155,7 +187,7 @@
     </sheet>
     <sheet number="6" name="/Project Architecture/Audio/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/1c7116a9-d8d3-4794-8366-f99861685a5c/">
       <title_block>
-        <title/>
+        <title>Audio</title>
         <company>ZSWatch</company>
         <rev/>
         <date>2025-07-13</date>
@@ -173,7 +205,7 @@
     </sheet>
     <sheet number="7" name="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/84d69b6e-c5e1-430b-bee6-3e9322ea9cdc/">
       <title_block>
-        <title/>
+        <title>Connectors</title>
         <company>ZSWatch</company>
         <rev/>
         <date>2025-07-13</date>
@@ -395,23 +427,23 @@
     </comp>
     <comp ref="C508">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
-      <datasheet>https://datasheets.kyocera-avx.com/cx5r-KGM.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/cx5r.pdf</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
         <field name="CONFIG"/>
         <field name="manf">KYOCERA AVX</field>
-        <field name="manf#">KGM03DR50G106MH</field>
-        <field name="mouser#">581-KGM03DR50G106MH</field>
-        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
-        <field name="Datasheet">https://datasheets.kyocera-avx.com/cx5r-KGM.pdf</field>
+        <field name="manf#">0402ZD106MAT4A</field>
+        <field name="mouser#">581-0402ZD106MAT4A</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/cx5r.pdf</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="KYOCERA AVX"/>
-      <property name="manf#" value="KGM03DR50G106MH"/>
-      <property name="mouser#" value="581-KGM03DR50G106MH"/>
+      <property name="manf#" value="0402ZD106MAT4A"/>
+      <property name="mouser#" value="581-0402ZD106MAT4A"/>
       <property name="Sheetname" value="Heartrate"/>
       <property name="Sheetfile" value="Heartrate.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1109,6 +1141,60 @@
       <sheetpath names="/Project Architecture/Audio/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/1c7116a9-d8d3-4794-8366-f99861685a5c/"/>
       <tstamps>d8ce4418-85a4-498a-bb03-36d40cb7118e</tstamps>
     </comp>
+    <comp ref="TP1">
+      <value>1V8_PA</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/84d69b6e-c5e1-430b-bee6-3e9322ea9cdc/"/>
+      <tstamps>8d2c7ba7-51fe-40c9-b36c-c7dfb633e7e3</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>1V8_HR</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/84d69b6e-c5e1-430b-bee6-3e9322ea9cdc/"/>
+      <tstamps>0041d31f-831b-4fe7-a203-9007aceff1c3</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>VSYS</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Connectors.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/84d69b6e-c5e1-430b-bee6-3e9322ea9cdc/"/>
+      <tstamps>920a2c1a-a807-4227-8ad6-894a25908a22</tstamps>
+    </comp>
     <comp ref="X701">
       <value>MB2</value>
       <footprint>Amphenol:101P014FB110</footprint>
@@ -1223,6 +1309,24 @@
         <pin num="D3" name="PGND" type="passive"/>
         <pin num="D4" name="PD2-IN" type="input"/>
         <pin num="D5" name="PD1-IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x07_Top_Bottom">
@@ -1439,6 +1543,9 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
     <library logical="Connector_Generic">
       <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
     </library>
@@ -1451,6 +1558,7 @@
       <node ref="C605" pin="1" pintype="passive"/>
       <node ref="IC601" pin="B6" pinfunction="VDD_{A}" pintype="power_in"/>
       <node ref="IC601" pin="D10" pinfunction="VDD_{IO}" pintype="power_in"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X702" pin="10" pinfunction="Pin_10" pintype="passive"/>
     </net>
     <net code="2" name="/Project Architecture/Audio/I2C_SCL" class="Default">
@@ -1502,6 +1610,7 @@
       <node ref="IC503" pin="C2" pinfunction="DVDD" pintype="power_in"/>
       <node ref="IC503" pin="D2" pinfunction="AVDD" pintype="power_in"/>
       <node ref="R502" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X701" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="11" name="/Project Architecture/Connectors/Status" class="Default">
@@ -1677,6 +1786,7 @@
       <node ref="IC601" pin="A11" pinfunction="VDD_{SP}" pintype="power_in"/>
       <node ref="LED501" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="LED501" pin="5" pinfunction="A" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X701" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
     <net code="43" name="unconnected-(IC502-INT2-Pad11)" class="Default">
